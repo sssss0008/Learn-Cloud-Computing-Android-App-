@@ -1,0 +1,6 @@
+{
+  "name": "Learn Cloud Computing",
+  "description": "Ultimate Advanced Cloud Computing Learning Academy by Awiskar Acharya. Interactive cloud labs, architecture simulator, DevOps, and terminal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:translateX="0"
+        android:translateY="0">
+        <!-- Cloud outline and body -->
+        <path
+            android:fillColor="#00E5FF"
+            android:pathData="M69.5,41.2 C68.1,34.8 62.4,30 55.5,30 C50.2,30 45.6,32.8 43.1,37 C35.4,37.8 29.5,44.3 29.5,52.2 C29.5,60.6 36.4,67.5 44.8,67.5 L69.5,67.5 C76.4,67.5 82,61.9 82,55 C82,48.4 76.8,42.9 70.3,42.2 C70,41.9 69.7,41.5 69.5,41.2 Z" />
+        
+        <!-- Inner server rack bars in white -->
+        <path
+            android:fillColor="#0B132B"
+            android:pathData="M43,46 L65,46 C66.1,46 67,46.9 67,48 C67,49.1 66.1,50 65,50 L43,50 C41.9,50 41,49.1 41,48 C41,46.9 41.9,46 43,46 Z" />
+        <path
+            android:fillColor="#0B132B"
+            android:pathData="M43,53 L65,53 C66.1,53 67,53.9 67,55 C67,56.1 66.1,57 65,57 L43,57 C41.9,57 41,56.1 41,55 C41,53.9 41.9,53 43,53 Z" />
+        <path
+            android:fillColor="#0B132B"
+            android:pathData="M43,60 L65,60 C66.1,60 67,60.9 67,62 C67,63.1 66.1,64 65,64 L43,64 C41.9,64 41,63.1 41,62 C41,60.9 41.9,60 43,60 Z" />
+
+        <!-- Status LEDs on server racks -->
+        <path
+            android:fillColor="#00FF66"
+            android:pathData="M44,47.5 A0.5,0.5 0 1,0 44,48.5 A0.5,0.5 0 1,0 44,47.5 Z" />
+        <path
+            android:fillColor="#00FF66"
+            android:pathData="M44,54.5 A0.5,0.5 0 1,0 44,55.5 A0.5,0.5 0 1,0 44,54.5 Z" />
+        <path
+            android:fillColor="#00FF66"
+            android:pathData="M44,61.5 A0.5,0.5 0 1,0 44,62.5 A0.5,0.5 0 1,0 44,61.5 Z" />
+
+        <!-- Connected nodes below cloud -->
+        <path
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="1.5"
+            android:pathData="M54,67.5 L54,75 M54,75 L38,81 M54,75 L70,81" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M54,74 A2,2 0 1,0 54,76 A2,2 0 1,0 54,74 Z" />
+        <path
+            android:fillColor="#38BDF8"
+            android:pathData="M38,80 A2.5,2.5 0 1,0 38,83 A2.5,2.5 0 1,0 38,80 Z" />
+        <path
+            android:fillColor="#818CF8"
+            android:pathData="M70,80 A2.5,2.5 0 1,0 70,83 A2.5,2.5 0 1,0 70,80 Z" />
+    </group>
+</vector>
